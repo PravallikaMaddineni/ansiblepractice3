@@ -41,4 +41,4 @@ jobs:
           context: ./frontend-reactapp
           file: ./frontend-reactapp/frontend.Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/ansible-frontend:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/ansiblepractice4-frontend:latest
